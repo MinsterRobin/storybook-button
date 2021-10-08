@@ -1,22 +1,21 @@
 const THEMES = [
     {
         text: 'white',
-        default: "#E0E0E0",
+        default: "#D0D0D0",
         background: '#ffffff',
         primary: '#2962FF',
         secondary: '#455A64',
-        danger: '#D32F2F'
+        danger: '#D32F2F',
+        font: {
+            family: 'Noto Sans JP',
+            very_small: "1.2rem",
+            small: "1.4rem",
+            regular: "1.6rem",
+            medium: "1.8rem",
+            large: "2.4rem",
+            very_large: "4.8rem"
+        }
     }
 ];
 
-const FONTS = {
-    family: 'Montserrat',
-    very_small: "1.2rem",
-    small: "1.4rem",
-    regular: "1.6rem",
-    medium: "1.8rem",
-    large: "2.4rem",
-    very_large: "4.8rem"
-};
-
-export {FONTS, THEMES}
+export {THEMES}

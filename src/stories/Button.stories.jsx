@@ -1,40 +1,78 @@
-import React from 'react';
+import React from "react";
+import Button from "../components/atoms/Button";
+import {THEMES} from "../global_styles/styles";
+import {ThemeProvider} from "styled-components";
+import {ReactComponent as CheckIcon} from "./assets/check_icon.svg";
+import {ReactComponent as CodeIcon} from "./assets/code_icon.svg";
+import {ReactComponent as ImportantIcon} from "./assets/important_icon.svg";
+import {ReactComponent as SearchIcon} from "./assets/search_icon.svg";
+import {ReactComponent as TrashIcon} from "./assets/trash_icon.svg";
 
-import { Button } from './Button';
+const iconMap = {CodeIcon, CheckIcon, ImportantIcon, SearchIcon, TrashIcon};
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
-  component: Button,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+    title:'Example/Button',
+    component: Button,
+    argTypes: {
+        color: {
+            control: {
+                type: "select",
+                options: ["default", "primary", "secondary", "danger"],
+            }
+        },
+        size: {
+            control: {
+                type: "select",
+                options: ["small", "medium", "large"],
+            }
+        },
+        variant: {
+            control: {
+                type: "radio",
+                options: ["", "text", "outline"]
+            }
+        },
+        LeftIcon: {
+            control: {
+                type: "select",
+                options: {
+                    None: '',
+                    CheckIcon: 'CheckIcon',
+                    TrashIcon: 'TrashIcon',
+                    ImportantIcon: 'ImportantIcon',
+                    CodeIcon: 'CodeIcon',
+                    SearchIcon: 'SearchIcon'
+                }
+            }
+        },
+        RightIcon: {
+            control: {
+                type: "select",
+                options: {
+                    None: '',
+                    CheckIcon: 'CheckIcon',
+                    TrashIcon: 'TrashIcon',
+                    ImportantIcon: 'ImportantIcon',
+                    CodeIcon: 'CodeIcon',
+                    SearchIcon: 'SearchIcon'
+                }
+            }
+        }
+    }
 };
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <Button {...args} />;
+const Template = (args) => {
+    const leftIcon = iconMap[args.LeftIcon];
+    const rightIcon = iconMap[args.RightIcon];
+
+    return(
+        <ThemeProvider theme={THEMES[0]}>
+            <Button {...args} LeftIcon={leftIcon} RightIcon={rightIcon}>Sample Text</Button>
+        </ThemeProvider>
+    );
+};
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  primary: true,
-  label: 'Button',
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
+    color: "primary"
 };
