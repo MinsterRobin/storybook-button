@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa61950-34ad-483d-b25b-4286517d20fa" name="Default Changelist" comment="V1 Button Component">
-      <change afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/check_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/code_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/important_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/search_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/trash_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/ButtonOld.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/check_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/code_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/important_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/search_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/trash_icon.svg" afterDir="false" />
+    <list default="true" id="baa61950-34ad-483d-b25b-4286517d20fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ions/StylesIons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ions/StylesIons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/GlobalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/GlobalStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global_styles/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global_styles/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.stories.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +114,8 @@
       <updated>1630424472338</updated>
       <workItem from="1630424474059" duration="4454000" />
       <workItem from="1633448216673" duration="19089000" />
-      <workItem from="1633604609603" duration="20586000" />
+      <workItem from="1633604609603" duration="22818000" />
+      <workItem from="1634904478380" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="StoryBook Init">
       <created>1633542341887</created>
@@ -143,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633542341888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V1 Button Component">
+      <created>1633692923328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633692923328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +155,11 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="755" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/-1920.243.1920.1080/2560.243.1920.1080@0.0.2048.1152" timestamp="1633448335870" />
-    <state x="613" y="171" key="CommitChangelistDialog2" timestamp="1633692914295">
+    <state x="613" y="168" width="826" height="984" key="CommitChangelistDialog2" timestamp="1634906754333">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="613" y="171" key="CommitChangelistDialog2/0.0.2048.1152/-1920.243.1920.1080/2560.243.1920.1080@0.0.2048.1152" timestamp="1633692914295" />
+    <state x="613" y="168" width="826" height="984" key="CommitChangelistDialog2/-1920.243.1920.1080/2560.243.1920.1080/0.0.2048.1152@0.0.2048.1152" timestamp="1634906754333" />
+    <state x="613" y="171" key="CommitChangelistDialog2/0.0.2048.1152/-1920.243.1920.1080/2560.243.1920.1080@0.0.2048.1152" timestamp="1633692921939" />
     <state x="804" y="318" key="FileChooserDialogImpl" timestamp="1630599747563">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
