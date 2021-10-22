@@ -72,7 +72,22 @@ const Template = (args) => {
     );
 };
 
+export const Default = Template.bind({});
+Default.args = {
+    color: "default"
+};
+
 export const Primary = Template.bind({});
 Primary.args = {
     color: "primary"
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+    color: "secondary"
+};
+
+export const Danger = Template.bind({});
+Danger.args = {
+    color: "danger"
 };
